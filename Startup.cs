@@ -27,7 +27,7 @@ namespace api2
                     options.Authority = "http://114.116.96.150:5004";
                     options.RequireHttpsMetadata = false;
 
-                    options.Audience = "api2";
+                    options.Audience = "api3";
                 });
 
             services.AddCors(options =>
